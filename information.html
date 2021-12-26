@@ -352,6 +352,45 @@
         /* mobile */
         @media screen and (max-width: 800px){
             
+            
+            
+            #top_bar {
+            position: fixed;
+            padding-top: 20px;
+            top: 0px;
+            width: 100%;
+            }
+        
+            #top_bar ul li {
+            float: left;
+            font: 18px/1.05 Italiana;
+            transition: all 0.2s;
+            }
+        
+            #top_bar ul li:hover {
+            transform: scale(1.2);
+            }
+        
+            #top_bar .top_left {
+            padding-left: 30px;
+            }
+        
+            #top_bar .top_right {
+            position: absolute;
+            right: 30px;
+            }
+        
+            #top_bar .top_right li {
+            margin-left: 30px;
+            }
+        
+            #top_bar:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+            }
+        
+            
             #profile {
                 max-width: 800px;
                 margin-top: 180px;
