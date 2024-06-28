@@ -1,0 +1,3109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kim Jeonghwa</title>
+    <script src="https://kit.fontawesome.com/85b4ce6da2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+    <script src="js/jquery.colorbox-min.js"></script>
+    
+    <style>
+    
+/*<!--       ------------------------  배경  ---------------------------------->*/
+        
+        body {background: #c1d2d0;}
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       ------------------------상단 아이콘---------------------------------->*/
+        #top_bar {
+            position: fixed;
+            padding-top: 20px;
+            top: 0px;
+            width: 100%;
+        }
+        
+        #top_bar ul li {
+            float: left;
+            font: 18px/1.05 Italiana;
+            transition: all 0.2s;
+        }
+        
+        #top_bar ul li:hover {
+            transform: scale(1.2);
+        }
+        
+        #top_bar .top_left {
+            padding-left: 45px;
+        }
+        
+        #top_bar .top_right {
+            position: absolute;
+            right: 50px;
+        }
+        
+        #top_bar .top_right li {
+            margin-left: 33px;
+        }
+        
+        #top_bar:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       --------------------------대문짝 이름---------------------------------->*/
+        #name {
+            text-align: center;
+/*            margin-top: 133px;*/
+            margin-top: 235px;
+        }
+        #name p {
+            font: 220px/1.05 Italiana;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+
+        
+        
+        
+        
+/*<!--       --------------------------사진과 소개---------------------------------->*/
+        #profile {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #profile img {
+            width: 470px;
+            margin: 100px auto 0;
+            _margin-left: 10%;
+            _margin-right: 5%;
+            _float: left;
+            display: block;
+        }
+        #profile ul {
+            _margin-right: 10%;
+        }
+/*
+        #profile ul li:first-child {
+            max-width: 200px;
+            margin: 10px auto 0;
+            _text-align-last: justify;
+            padding-top: 10px;
+        }
+*/
+        #profile ul li:nth-child(2) {
+            display: none;
+        }
+        #profile ul li:last-child p {
+            font: 17px/1.6 Noto Sans KR;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 150px;
+        }
+        #profile p span {font: 280px/1.0 Arizonia; display: inline-block;}
+        #profile p span:first-child {transform: rotateY(210deg);}
+        
+        
+        #SBS h1 {
+            text-align: center; 
+            font: 70px/1.0 Italiana;
+        }
+        
+        
+        #other h1 {
+            text-align: center; 
+            font: 70px/1.0 Italiana;
+        }
+/*
+        #profile:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+*/
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        #portfolio01 {max-width: 100%; margin: 80px auto;}
+        #portfolio01 ul {display: none;}
+        #portfolio01 ul li {font-size: 20px;}
+        
+        
+        
+        
+        #portfolio {max-width: 100%; margin: 80px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+        
+        
+        
+        /*<!--       ------------------------첫 번째 영상01---------------------------------->*/
+        #portfolio01 #video001 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio01 .title001 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video001 .title001 {
+            float: left;
+            margin-left: 2%;
+        }
+        #video001:after {content: ''; display: block; clear: both;}
+        #video001 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video001:hover img {opacity: 1; transition: 1s;}
+        #video001:hover {background: #fff;}
+        
+/*
+        #contents01 {
+            position: relative;
+        }
+*/
+        
+        
+        #contents001 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents001:after {content: ''; display: block; clear: both;}
+        .comment001:after {content: ''; display: block; clear: both;}
+        
+        #contents001 .comment001 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment001 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment001 spanx {
+            display: none;
+        }
+        
+        #contents001 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents001 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents001 img:first-child {
+            margin-left: 3%;
+        }
+        #contents001 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents001 span img:last-child {
+            margin-left: 0;
+        }
+        #contents001 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+        
+        #contents001 .reels00 {display: none;}
+        #contents001 .reels000 {display: none;}
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+        /*<!--       ------------------------두 번째 영상02---------------------------------->*/
+        #portfolio01 #video002 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio01 .title002 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video002 .title002 {
+            float: left;
+            margin-left: 2%;}
+        #video002:after {content: ''; display: block; clear: both;}
+        #video002 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video002:hover img {opacity: 1; transition: 1s;}
+        #video002:hover {background: #fff;}
+        
+        #contents002 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents002:after {content: ''; display: block; clear: both;}
+        .comment002:after {content: ''; display: block; clear: both;}
+        
+        #contents002 .comment002 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment002 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment002 spanx {
+            display: none;
+        }
+        
+        #contents002 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents002 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents002 img:first-child {
+            margin-left: 3%;
+        }
+        #contents002 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents002 span img:last-child {
+            margin-left: 0;
+        }
+        #contents002 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+        
+        #contents002 .il00 {display: none;}
+        #contents002 .il000 {display: none;}
+        
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        #portfolio01 #video003 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+/*<!--       ------------------------첫 번째 영상---------------------------------->*/
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title01 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;
+        }
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 1; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+/*
+        #contents01 {
+            position: relative;
+        }
+*/
+        
+        #contents01 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 .comment01 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment01 spanx {
+            display: none;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        #contents01 .levis5 {display: none;}
+        #contents01 .levis6 {display: none;}
+        #contents01 .levis7 {display: none;}
+        #contents01 .levis8 {display: none;}
+        
+        #contents01 .levis9 {display: none;}
+        #contents01 .levis10 {display: none;}
+        #contents01 .levis11 {display: none;}
+        #contents01 .levis12 {display: none;}
+        
+        #contents01 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 span img:last-child {
+            margin-left: 0;
+        }
+        #contents01 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       ------------------------두 번째 영상---------------------------------->*/
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 1; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 .comment02 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment02 spanx {
+            display: none;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents02 .pl5 {display: none;}
+        #contents02 .pl6 {display: none;}
+        #contents02 .pl7 {display: none;}
+        #contents02 .pl8 {display: none;}
+        
+        #contents02 .pl9 {display: none;}
+        #contents02 .pl10 {display: none;}
+        #contents02 .pl11 {display: none;}
+        #contents02 .pl12 {display: none;}
+        
+        #contents02 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 span img:last-child {
+            margin-left: 0;
+        }
+        #contents02 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       -------------------------세 번째 영상---------------------------------->*/
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video03:hover img {opacity: 1; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 .comment03 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment03 spanx {
+            display: none;
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents03 .xiumin5 {display: none;}
+        #contents03 .xiumin6 {display: none;}
+        #contents03 .xiumin7 {display: none;}
+        #contents03 .xiumin8 {display: none;}
+        
+        #contents03 .xiumin9 {display: none;}
+        #contents03 .xiumin10 {display: none;}
+        #contents03 .xiumin11 {display: none;}
+        #contents03 .xiumin12 {display: none;}
+        
+        #contents03 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 span img:last-child {
+            margin-left: 0;
+        }
+        #contents03 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+/*<!--       -------------------------네 번째 영상---------------------------------->*/
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+           cursor: pointer;
+        }
+        #portfolio .title04 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video04 .title04 {
+            float: left;
+            margin-left: 2%;}
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video04:hover img {opacity: 1; transition: 1s;}
+        #video04:hover {background: #fff;}
+        
+        #contents04:after {content: ''; display: block; clear: both;}
+        .comment04:after {content: ''; display: block; clear: both;}
+        
+
+        
+        #contents04 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents04 .shorts5 {display: none;}
+        #contents04 .shorts6 {display: none;}
+        #contents04 .shorts7 {display: none;}
+        #contents04 .shorts8 {display: none;}
+        
+        #contents04 .shorts9 {display: none;}
+        #contents04 .shorts10 {display: none;}
+        #contents04 .shorts11 {display: none;}
+        #contents04 .shorts12 {display: none;}
+        
+        #contents04 img:hover {transform: scale(1.01); transition: 0.2s;}
+        #contents04 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 span img:last-child {
+            margin-left: 0;
+        }
+        #contents03 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        #portfolio #video05 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+        }
+        
+
+        
+/*<!--       -------------------------  쇼츠  ---------------------------------->*/
+/*
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 23%;
+            _margin-top: 2%;
+            margin-right: 2%;
+        }
+        
+        #shorts .shorts5 {display: none;}
+        #shorts .shorts6 {display: none;}
+        #shorts .shorts7 {display: none;}
+        #shorts .shorts8 {display: none;}
+        
+        #shorts .shorts9 {display: none;}
+        #shorts .shorts10 {display: none;}
+        #shorts .shorts11 {display: none;}
+        #shorts .shorts12 {display: none;}
+        
+        #shorts img:hover {_transform: scale(1.02); opacity: 0.8; transition: 0.2s;}
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+*/
+        
+        
+        
+/*<!--       -------------------------  연락처  ---------------------------------->*/
+        #contact {max-width: 1200px; margin: 0px auto; text-align: center;}
+        #contact h1 {font: 80px/1.0 Italiana; margin-top: 130px; margin-bottom: 15px;}
+        #contact li {font: 180px/1.0 Italiana;}
+        #contact li:hover {
+            transform: scale(1.02);
+            transition: 0.2s;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+        
+        
+/*
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        --------------------------------------------------------------------
+<!--       ------------------------- 모바일 ver --------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+*/
+        
+        
+        @media all and (max-width: 1430px) and (min-width: 1166px){
+            
+            
+            
+            #video001:hover img {opacity: 0; transition: 1s;}
+            #contents001 iframe {
+                width: 725px;
+                height: 405px;
+            }
+            
+            
+            #video002:hover img {opacity: 0; transition: 1s;}
+            
+            
+            
+            
+            
+            #video01:hover img {opacity: 0; transition: 1s;}
+            #contents01 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment01 span {
+                width: 350px;
+            }
+            
+            
+            #video02:hover img {opacity: 0; transition: 1s;}
+            #contents02 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment02 span {
+                width: 350px;
+            }
+            
+            
+            #video03:hover img {opacity: 0; transition: 1s;}
+            #contents03 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment03 span {
+                width: 350px;
+            }
+            
+            
+            #video04:hover img {opacity: 0; transition: 1s;}
+            
+        }
+        
+        
+        
+        
+        
+        
+        /*-----------------------------------------------------------------*/
+        
+        /* ipad가로, ipadpro가로/세로, gallaxyTab가로 */
+        @media all and (max-width: 1165px) and (min-width: 801px){
+            
+            
+            #name {
+                text-align: center;
+                margin-top: 235px;
+            }
+            #name p {
+                font: 155px/1.05 Italiana;
+            }
+            
+            
+            #profile {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            #profile img {
+                width: 350px;
+                margin-top: 100px auto 0;
+                _margin-left: 10%;
+                _margin-right: 5%;
+                _float: left;
+                display: block;
+            }
+            #profile ul {
+                _margin-right: 10%;
+            }
+/*
+            #profile ul li:first-child {
+                max-width: 400px;
+                margin: 10px auto 0;
+                text-align-last: justify;
+                padding-top: 10px;
+            }
+*/
+       
+            #profile ul li:last-child p {
+                font: 16px/1.6 Noto Sans KR;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 167px;
+            }
+            #profile p span {font: 260px/1.0 Arizonia; display: inline-block;}
+            #profile p span:first-child {transform: rotateY(210deg);}
+/*
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+*/
+            
+            
+            #SBS h1 {
+                margin-top: -30px;
+            }
+            
+            #other h1 {
+                margin-top: 30px;
+                margin-bottom: -70px;
+            }
+            
+            
+            
+            
+            
+            
+        #portfolio {max-width: 100%; margin: 150px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+
+        
+            
+        #portfolio01 #video001 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio01 .title001 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }    
+        #video001 .title001 {
+            float: left;
+            margin-left: 2%;}
+        #video001:after {content: ''; display: block; clear: both;}
+        #video001 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video001:hover img {opacity: 0; transition: 1s;}
+        #video001:hover {background: #fff;}
+        
+        #contents001 iframe {
+            float: none;
+            width: 725px;
+            height: 405px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents001:after {content: ''; display: block; clear: both;}
+        .comment001:after {content: ''; display: block; clear: both;}
+        
+        #contents001 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+        
+        #contents001 {
+            width: 97%;
+            margin: 0 auto;
+        }
+            
+        #contents001 .comment001 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        .comment001 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment001 spanx {
+            display: contents;
+        }
+        
+        #contents001 img {
+            float: left;
+            width: 45.5%;
+            margin: -30px 0 70px;
+        }
+            
+        #contents001 .reels1 {display: none;}
+        #contents001 .reels2 {display: none;}
+        #contents001 .reels3 {display: none;}
+        #contents001 .reels4 {display: none;}
+        #contents001 .reels5 {display: none;}
+        #contents001 .reels6 {display: none;}
+        #contents001 .reels7 {display: none;}
+        #contents001 .reels8 {display: none;}
+        #contents001 .reels9 {display: none;}
+        #contents001 .reels10 {display: none;}
+        #contents001 .reels11 {display: none;}
+        #contents001 .reels12 {display: none;}
+        #contents001 .reels13 {display: none;}
+        #contents001 .reels14 {display: none;}
+        #contents001 .reels15 {display: none;}
+        #contents001 .reels16 {display: none;}
+        #contents001 .reels17 {display: none;}
+        #contents001 .reels18 {display: none;}
+        #contents001 .reels19 {display: none;}
+        #contents001 .reels20 {display: none;}
+        #contents001 .reels21 {display: none;}
+        #contents001 .reels22 {display: none;}
+        #contents001 .reels23 {display: none;}
+        #contents001 .reels24 {display: none;}
+        #contents001 .reels25 {display: none;}
+        #contents001 .reels26 {display: none;}
+        #contents001 .reels27 {display: none;}
+        #contents001 .reels28 {display: none;}
+        #contents001 .reels29 {display: none;}
+        #contents001 .reels30 {display: none;}
+        #contents001 .reels31 {display: none;}
+        #contents001 .reels32 {display: none;}
+        #contents001 .reels33 {display: none;}
+        #contents001 .reels34 {display: none;}
+        #contents001 .reels35 {display: none;}
+        #contents001 .reels36 {display: none;}
+        #contents001 .reels37 {display: none;}
+        #contents001 .reels38 {display: none;}
+        #contents001 .reels39 {display: none;}
+        #contents001 .reels40 {display: none;}
+        #contents001 .reels41 {display: none;}
+        #contents001 .reels42 {display: none;}
+        #contents001 .reels43 {display: none;}
+        #contents001 .reels44 {display: none;}
+        #contents001 .reels45 {display: none;}
+        #contents001 .reels46 {display: none;}
+        #contents001 .reels47 {display: none;}
+        #contents001 .reels48 {display: none;}
+        
+        #contents001 .reels00 {display: contents;}
+            
+        #contents001 .reels000 {display: none;}
+            
+            
+            
+         
+        #portfolio01 #video002 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio01 .title002 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }    
+        #video002 .title002 {
+            float: left;
+            margin-left: 2%;}
+        #video002:after {content: ''; display: block; clear: both;}
+        #video002 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video002:hover img {opacity: 0; transition: 1s;}
+        #video002:hover {background: #fff;}
+        
+        #contents002 iframe {
+            float: none;
+            width: 725px;
+            height: 405px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents002:after {content: ''; display: block; clear: both;}
+        .comment002:after {content: ''; display: block; clear: both;}
+        
+        #contents002 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+        
+        #contents002 {
+            width: 97%;
+            margin: 0 auto;
+        }
+            
+        #contents002 .comment002 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        .comment002 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment002 spanx {
+            display: contents;
+        }
+        
+        #contents002 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents002 .il1 {display: none;}
+        #contents002 .il2 {display: none;}
+        #contents002 .il3 {display: none;}
+        #contents002 .il4 {display: none;}
+        #contents002 .il5 {display: none;}
+        #contents002 .il6 {display: none;}
+        #contents002 .il7 {display: none;}
+        #contents002 .il8 {display: none;}
+        #contents002 .il9 {display: none;}
+        #contents002 .il10 {display: none;}
+        #contents002 .il11 {display: none;}
+        #contents002 .il12 {display: none;}
+        #contents002 .il13 {display: none;}
+        #contents002 .il14 {display: none;}
+        #contents002 .il15 {display: none;}
+        #contents002 .il16 {display: none;}
+        #contents002 .il17 {display: none;}
+        #contents002 .il18 {display: none;}
+        #contents002 .il19 {display: none;}
+        #contents002 .il20 {display: none;}
+        #contents002 .il21 {display: none;}
+        #contents002 .il22 {display: none;}
+        #contents002 .il23 {display: none;}
+        #contents002 .il24 {display: none;}
+        #contents002 .il25 {display: none;}
+        #contents002 .il26 {display: none;}
+        #contents002 .il27 {display: none;}
+        #contents002 .il28 {display: none;}
+        #contents002 .il29 {display: none;}
+        #contents002 .il30 {display: none;}
+        #contents002 .il31 {display: none;}
+        #contents002 .il32 {display: none;}
+        #contents002 .il33 {display: none;}
+        #contents002 .il34 {display: none;}
+        #contents002 .il35 {display: none;}
+        #contents002 .il36 {display: none;}
+        
+        #contents002 .il00 {display: contents;}
+            
+        #contents002 .il000 {display: none;}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title01 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;}
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 0; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+        #contents01 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+            
+        #contents01 .comment01 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment01 spanx {
+            display: contents;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents01 .levis1 {display: none;}
+        #contents01 .levis2 {display: none;}
+        #contents01 .levis3 {display: none;}
+        #contents01 .levis4 {display: none;}
+            
+        #contents01 .levis5 {display: contents;}
+        #contents01 .levis6 {display: contents;}
+        #contents01 .levis7 {display: contents;}
+        #contents01 .levis8 {display: contents;}
+            
+        #contents01 .levis9 {display: none;}
+        #contents01 .levis10 {display: none;}
+        #contents01 .levis11 {display: none;}
+        #contents01 .levis12 {display: none;}
+            
+        #contents01 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents01 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+        .comment01 spanx img:first-child {
+            margin-left: 90px;
+        }
+        
+
+        
+        
+        
+        
+        
+
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 0; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+            
+        #contents02 .comment02 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment02 spanx {
+            display: contents;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents02 .pl1 {display: none;}
+        #contents02 .pl2 {display: none;}
+        #contents02 .pl3 {display: none;}
+        #contents02 .pl4 {display: none;}
+            
+        #contents02 .pl5 {display: contents;}
+        #contents02 .pl6 {display: contents;}
+        #contents02 .pl7 {display: contents;}
+        #contents02 .pl8 {display: contents;}
+            
+        #contents02 .pl9 {display: none;}
+        #contents02 .pl10 {display: none;}
+        #contents02 .pl11 {display: none;}
+        #contents02 .pl12 {display: none;}
+            
+        #contents02 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents02 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+
+        
+        
+        
+        
+        
+
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition: 0.5s;}
+        #video03:hover img {opacity: 0; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 {
+            width: 97%;
+            margin: 0 auto;
+        }
+        
+        #contents03 .comment03 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment03 spanx {
+            display: contents;
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents03 .xiumin1 {display: none;}
+        #contents03 .xiumin2 {display: none;}
+        #contents03 .xiumin3 {display: none;}
+        #contents03 .xiumin4 {display: none;}
+            
+        #contents03 .xiumin5 {display: contents;}
+        #contents03 .xiumin6 {display: contents;}
+        #contents03 .xiumin7 {display: contents;}
+        #contents03 .xiumin8 {display: contents;}
+            
+        #contents03 .xiumin9 {display: none;}
+        #contents03 .xiumin10 {display: none;}
+        #contents03 .xiumin11 {display: none;}
+        #contents03 .xiumin12 {display: none;}
+        
+        #contents03 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents03 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+        
+        
+
+        
+        
+        
+        
+
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+           cursor: pointer;
+        }
+        #portfolio .title04 {
+            font: 75px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video04 .title04 {
+            float: left;
+            margin-left: 2%;
+        }
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition: 0.5s;}
+        #video04:hover img {opacity: 0; transition: 1s;}
+        #video04:hover {background: #fff;}
+            
+            
+        #contents04 .shorts1 {display: none;}
+        #contents04 .shorts2 {display: none;}
+        #contents04 .shorts3 {display: none;}
+        #contents04 .shorts4 {display: none;}
+            
+        #contents04 .shorts5 {display: contents;}
+        #contents04 .shorts6 {display: contents;}
+        #contents04 .shorts7 {display: contents;}
+        #contents04 .shorts8 {display: contents;}
+            
+        #contents04 .shorts9 {display: none;}
+        #contents04 .shorts10 {display: none;}
+        #contents04 .shorts11 {display: none;}
+        #contents04 .shorts12 {display: none;}
+        
+        
+
+        
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 75px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 48%;
+            _margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 20px;
+        }
+            
+        #shorts .shorts1 {display: none;}
+        #shorts .shorts2 {display: none;}
+        #shorts .shorts3 {display: none;}
+        #shorts .shorts4 {display: none;}
+        
+        #shorts .shorts5 {display: contents;}
+        #shorts .shorts6 {display: contents;}
+        #shorts .shorts7 {display: contents;}
+        #shorts .shorts8 {display: contents;}
+            
+        #shorts .shorts9 {display: none;}
+        #shorts .shorts10 {display: none;}
+        #shorts .shorts11 {display: none;}
+        #shorts .shorts12 {display: none;}
+            
+        #shorts img:hover {transform: scale(1.02); transition: 0.2s;}
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+            
+
+        #contact {max-width: 100%; margin: 0px auto; text-align: center;}
+        #contact h1 {font: 75px/1.0 Italiana; margin-top: 80px; margin-bottom: 15px;}
+        #contact li {font: 130px/1.0 Italiana;}
+
+        
+
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*-----------------------------------------------------------------*/
+        /*-----------------------------------------------------------------*/ 
+        /*-----------------------------------------------------------------*/
+        
+        /* mobile */
+        @media screen and (max-width: 800px){
+            
+            
+            #top_bar {
+            position: fixed;
+            padding-top: 20px;
+            top: 0px;
+            width: 100%;
+            }
+        
+            #top_bar ul li {
+            float: left;
+            font: 18px/1.05 Italiana;
+            transition: all 0.2s;
+            }
+        
+            #top_bar ul li:hover {
+            transform: scale(1.2);
+            }
+        
+            #top_bar .top_left {
+            padding-left: 30px;
+            }
+        
+            #top_bar .top_right {
+            position: absolute;
+            right: 30px;
+            }
+        
+            #top_bar .top_right li {
+            margin-left: 30px;
+            }
+        
+            #top_bar:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+            }
+            
+            
+            
+            #name {
+                text-align: center;
+                margin-top: 148px;
+            }
+            #name p {
+                font: 75px/1.05 Italiana;
+            }
+            
+            
+           
+            #profile {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            #profile img {
+                width: 220px;
+                margin-top: 45px;
+                _margin-left: 10%;
+                _margin-right: 5%;
+                _float: left;
+                display: block;
+            }
+            #profile ul {
+                _margin-right: 10%;
+            }
+/*
+            #profile ul li:first-child {
+                max-width: 280px;
+                margin: 5px auto 0;
+                text-align: justify;
+            }
+*/
+/*
+            #profile ul li:after {content:""; display:inline-block; width:100%; height:1px;}
+            #profile ul li:first-child:after {content:""; display:inline-block; width:100%; height:1px;}
+*/
+            
+            #profile ul li:nth-child(2) {
+                display: contents;
+            }
+            
+            #profile ul li:nth-child(2) p {
+                font: 14px/1.6 Noto Sans KR;
+                text-align: center;
+                margin: 25px 5% 0;
+            }
+            
+            #profile ul li:last-child p {
+                font: 14px/1.6 Noto Sans KR;
+                text-align: center;
+                margin: 25px 5% 0;
+                display: none;
+            }
+            #profile p {text-align: justify;}
+            #profile p span {font: 160px/1.0 Arizonia; display: inline-block;}
+            #profile p span:first-child {transform: rotateY(210deg);}
+/*
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+*/
+
+           
+            #SBS h1 {
+                font: 45px/1.0 Italiana;
+                margin-top: 100px;
+                margin-bottom: -20px;
+            }
+            
+            
+            #other h1 {
+                font: 45px/1.0 Italiana;
+                margin-top: 80px;
+                margin-bottom: -45px;
+            }
+            
+            
+            
+            
+        #portfolio {max-width: 100%; margin: 110px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+
+        
+        
+            
+        #portfolio01 #video001 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+         #portfolio01 .title001 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video001 .title001 {
+            float: left;
+            margin-left: 2%;}
+        #video001:after {content: ''; display: block; clear: both;}
+        #video001 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video001:hover img {opacity: 0; transition: 1s;}
+        #video001:hover {background: #fff;}
+        
+        #contents001 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents001:after {content: ''; display: block; clear: both;}
+        .comment001:after {content: ''; display: block; clear: both;}
+        
+        #contents001 .comment001 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 20px;
+            _margin-right: 4%;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        .comment001 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment001 spanx {
+            display: contents;
+        }
+        
+        #contents001 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        
+            
+        #contents001 .reels1 {display: none;}
+        #contents001 .reels2 {display: none;}
+        #contents001 .reels3 {display: none;}
+        #contents001 .reels4 {display: none;}
+        #contents001 .reels5 {display: none;}
+        #contents001 .reels6 {display: none;}
+        #contents001 .reels7 {display: none;}
+        #contents001 .reels8 {display: none;}
+        #contents001 .reels9 {display: none;}
+        #contents001 .reels10 {display: none;}
+        #contents001 .reels11 {display: none;}
+        #contents001 .reels12 {display: none;}
+        #contents001 .reels13 {display: none;}
+        #contents001 .reels14 {display: none;}
+        #contents001 .reels15 {display: none;}
+        #contents001 .reels16 {display: none;}
+        #contents001 .reels17 {display: none;}
+        #contents001 .reels18 {display: none;}
+        #contents001 .reels19 {display: none;}
+        #contents001 .reels20 {display: none;}
+        #contents001 .reels21 {display: none;}
+        #contents001 .reels22 {display: none;}
+        #contents001 .reels23 {display: none;}
+        #contents001 .reels24 {display: none;}
+        #contents001 .reels25 {display: none;}
+        #contents001 .reels26 {display: none;}
+        #contents001 .reels27 {display: none;}
+        #contents001 .reels28 {display: none;}
+        #contents001 .reels29 {display: none;}
+        #contents001 .reels30 {display: none;}
+        #contents001 .reels31 {display: none;}
+        #contents001 .reels32 {display: none;}
+        #contents001 .reels33 {display: none;}
+        #contents001 .reels34 {display: none;}
+        #contents001 .reels35 {display: none;}
+        #contents001 .reels36 {display: none;}
+        #contents001 .reels37 {display: none;}
+        #contents001 .reels38 {display: none;}
+        #contents001 .reels39 {display: none;}
+        #contents001 .reels40 {display: none;}
+        #contents001 .reels41 {display: none;}
+        #contents001 .reels42 {display: none;}
+        #contents001 .reels43 {display: none;}
+        #contents001 .reels44 {display: none;}
+        #contents001 .reels45 {display: none;}
+        #contents001 .reels46 {display: none;}
+        #contents001 .reels47 {display: none;}
+        #contents001 .reels48 {display: none;}
+        
+        #contents001 .reels00 {display: none;}
+            
+        #contents001 .reels000 {display: contents;}
+        
+            
+          
+        
+            
+        #portfolio01 #video002 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+         #portfolio01 .title002 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video002 .title002 {
+            float: left;
+            margin-left: 2%;}
+        #video002:after {content: ''; display: block; clear: both;}
+        #video002 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video002:hover img {opacity: 0; transition: 1s;}
+        #video002:hover {background: #fff;}
+        
+        #contents002 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents002:after {content: ''; display: block; clear: both;}
+        .comment002:after {content: ''; display: block; clear: both;}
+        
+        #contents002 .comment002 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        .comment002 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment002 spanx {
+            display: contents;
+        }
+        
+        #contents002 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+            
+            
+        #contents002 .il1 {display: none;}
+        #contents002 .il2 {display: none;}
+        #contents002 .il3 {display: none;}
+        #contents002 .il4 {display: none;}
+        #contents002 .il5 {display: none;}
+        #contents002 .il6 {display: none;}
+        #contents002 .il7 {display: none;}
+        #contents002 .il8 {display: none;}
+        #contents002 .il9 {display: none;}
+        #contents002 .il10 {display: none;}
+        #contents002 .il11 {display: none;}
+        #contents002 .il12 {display: none;}
+        #contents002 .il13 {display: none;}
+        #contents002 .il14 {display: none;}
+        #contents002 .il15 {display: none;}
+        #contents002 .il16 {display: none;}
+        #contents002 .il17 {display: none;}
+        #contents002 .il18 {display: none;}
+        #contents002 .il19 {display: none;}
+        #contents002 .il20 {display: none;}
+        #contents002 .il21 {display: none;}
+        #contents002 .il22 {display: none;}
+        #contents002 .il23 {display: none;}
+        #contents002 .il24 {display: none;}
+        #contents002 .il25 {display: none;}
+        #contents002 .il26 {display: none;}
+        #contents002 .il27 {display: none;}
+        #contents002 .il28 {display: none;}
+        #contents002 .il29 {display: none;}
+        #contents002 .il30 {display: none;}
+        #contents002 .il31 {display: none;}
+        #contents002 .il32 {display: none;}
+        #contents002 .il33 {display: none;}
+        #contents002 .il34 {display: none;}
+        #contents002 .il35 {display: none;}
+        #contents002 .il36 {display: none;}
+        
+        #contents002 .il00 {display: none;}
+            
+        #contents002 .il000 {display: contents;}
+            
+            
+            
+            
+            
+
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+         #portfolio .title01 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;}
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 0; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+        #contents01 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 .comment01 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment01 spanx {
+            display: contents;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents01 .levis1 {display: none;}
+        #contents01 .levis2 {display: none;}
+        #contents01 .levis3 {display: none;}
+        #contents01 .levis4 {display: none;}
+            
+        #contents01 .levis5 {display: none;}
+        #contents01 .levis6 {display: none;}
+        #contents01 .levis7 {display: none;}
+        #contents01 .levis8 {display: none;}
+            
+        #contents01 .levis9 {display: contents;}
+        #contents01 .levis10 {display: contents;}
+        #contents01 .levis11 {display: contents;}
+        #contents01 .levis12 {display: contents;}
+            
+        #contents01 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents01 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-left: 3%;
+            width: 50px;
+        }
+        
+
+        
+        
+        
+        
+        
+
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 0; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 .comment02 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment02 spanx {
+            display: contents;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents02 .pl1 {display: none;}
+        #contents02 .pl2 {display: none;}
+        #contents02 .pl3 {display: none;}
+        #contents02 .pl4 {display: none;}
+            
+        #contents02 .pl5 {display: none;}
+        #contents02 .pl6 {display: none;}
+        #contents02 .pl7 {display: none;}
+        #contents02 .pl8 {display: none;}
+            
+        #contents02 .pl9 {display: contents;}
+        #contents02 .pl10 {display: contents;}
+        #contents02 .pl11 {display: contents;}
+        #contents02 .pl12 {display: contents;}
+            
+        #contents02 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents02 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-left: 3%;
+            width: 50px;
+        }
+
+        
+        
+        
+        
+        
+
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video03:hover img {opacity: 0; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 .comment03 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment03 spanx {
+            display: contents;   
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents03 .xiumin1 {display: none;}
+        #contents03 .xiumin2 {display: none;}
+        #contents03 .xiumin3 {display: none;}
+        #contents03 .xiumin4 {display: none;}
+            
+        #contents03 .xiumin5 {display: none;}
+        #contents03 .xiumin6 {display: none;}
+        #contents03 .xiumin7 {display: none;}
+        #contents03 .xiumin8 {display: none;}
+            
+        #contents03 .xiumin9 {display: contents;}
+        #contents03 .xiumin10 {display: contents;}
+        #contents03 .xiumin11 {display: contents;}
+        #contents03 .xiumin12 {display: contents;}
+            
+        #contents03 img:hover {transform: scale(1.02); transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents03 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-left: 3%;
+            width: 50px;
+        }
+        
+        
+
+        
+        
+        
+        
+
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+        }
+        #portfolio .title04 {
+            font: 35px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video03 .title04 {
+            float: left;
+            margin-left: 2%;}
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video04:hover img {opacity: 0; transition: 1s;}
+        #video04:hover {background: #fff;}
+        
+        #contents04 iframe {
+            float: none;
+            width: 350px;
+            height: 205px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents04:after {content: ''; display: block; clear: both;}
+        .comment04:after {content: ''; display: block; clear: both;}
+        
+        #contents04 .comment04 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 14px/1.6 Noto Sans KR;
+        }
+        
+        .comment04 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment04 spanx {
+            display: contents;   
+        }
+        
+        #contents04 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents04 .shorts1 {display: none;}
+        #contents04 .shorts2 {display: none;}
+        #contents04 .shorts3 {display: none;}
+        #contents04 .shorts4 {display: none;}
+            
+        #contents04 .shorts5 {display: none;}
+        #contents04 .shorts6 {display: none;}
+        #contents04 .shorts7 {display: none;}
+        #contents04 .shorts8 {display: none;}
+            
+        #contents04 .shorts9 {display: contents;}
+        #contents04 .shorts10 {display: contents;}
+        #contents04 .shorts11 {display: contents;}
+        #contents04 .shorts12 {display: contents;}
+            
+        
+
+        
+            
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 48%;
+            _margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 20px;
+        }
+            
+        #shorts .shorts1 {display: none;}
+        #shorts .shorts2 {display: none;}
+        #shorts .shorts3 {display: none;}
+        #shorts .shorts4 {display: none;}
+        
+        #shorts .shorts5 {display: none;}
+        #shorts .shorts6 {display: none;}
+        #shorts .shorts7 {display: none;}
+        #shorts .shorts8 {display: none;}
+            
+        #shorts .shorts9 {display: contents;}
+        #shorts .shorts10 {display: contents;}
+        #shorts .shorts11 {display: contents;}
+        #shorts .shorts12 {display: contents;}
+            
+        #shorts img:hover {transform: scale(1.02); transition: 0.2s;}
+        
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+  
+            
+
+        #contact {max-width: 100%; margin: 0px auto 12px; text-align: center;}
+        #contact h1 {font: 40px/1.0 Italiana; margin-top: -20px; margin-bottom: 15px;}
+        #contact li {font: 55px/1.0 Italiana;}
+
+        
+            
+            
+        }
+        
+        
+    
+    </style>
+    
+    
+
+<!--        --------------------------  스크립트  -------------------------------------->
+    <script>
+        
+        $(function(){
+            $("#video001").click(function(){
+                $("#portfolio01 #contents001").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video002").click(function(){
+                $("#portfolio01 #contents002").slideToggle();
+            });
+        });
+        
+        
+        
+        
+        
+        $(function(){
+            $("#video01").click(function(){
+                $("#portfolio #contents01").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video02").click(function(){
+                $("#portfolio #contents02").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video03").click(function(){
+                $("#portfolio #contents03").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video04").click(function(){
+                $("#portfolio #contents04").slideToggle();
+            });
+        });
+        
+        
+        
+        
+        $(document).ready(function(){
+            $(".reels1").colorbox({rel:'reels1', innerWidth:900, innerHeight:520});
+            $(".reels2").colorbox({rel:'reels2', innerWidth:900, innerHeight:520});
+            $(".reels3").colorbox({rel:'reels3', innerWidth:900, innerHeight:520});
+            $(".reels4").colorbox({rel:'reels4', innerWidth:900, innerHeight:520});
+            $(".reels5").colorbox({rel:'reels5', innerWidth:900, innerHeight:520});
+            $(".reels6").colorbox({rel:'reels6', innerWidth:900, innerHeight:520});
+            $(".reels7").colorbox({rel:'reels7', innerWidth:900, innerHeight:520});
+            $(".reels8").colorbox({rel:'reels8', innerWidth:900, innerHeight:520});
+            $(".reels9").colorbox({rel:'reels9', innerWidth:900, innerHeight:520});
+            $(".reels10").colorbox({rel:'reels10', innerWidth:900, innerHeight:520});
+            $(".reels11").colorbox({rel:'reels11', innerWidth:900, innerHeight:520});
+            $(".reels12").colorbox({rel:'reels12', innerWidth:900, innerHeight:520});
+            $(".reels13").colorbox({rel:'reels13', innerWidth:900, innerHeight:520});
+            $(".reels14").colorbox({rel:'reels14', innerWidth:900, innerHeight:520});
+            $(".reels15").colorbox({rel:'reels15', innerWidth:900, innerHeight:520});
+            $(".reels16").colorbox({rel:'reels16', innerWidth:900, innerHeight:520});
+            $(".reels17").colorbox({rel:'reels17', innerWidth:900, innerHeight:520});
+            $(".reels18").colorbox({rel:'reels18', innerWidth:900, innerHeight:520});
+            $(".reels19").colorbox({rel:'reels19', innerWidth:900, innerHeight:520});
+            $(".reels20").colorbox({rel:'reels20', innerWidth:900, innerHeight:520});
+            $(".reels21").colorbox({rel:'reels21', innerWidth:900, innerHeight:520});
+            $(".reels22").colorbox({rel:'reels22', innerWidth:900, innerHeight:520});
+            $(".reels23").colorbox({rel:'reels23', innerWidth:900, innerHeight:520});
+            $(".reels24").colorbox({rel:'reels24', innerWidth:900, innerHeight:520});
+            $(".reels25").colorbox({rel:'reels25', innerWidth:900, innerHeight:520});
+            $(".reels26").colorbox({rel:'reels26', innerWidth:900, innerHeight:520});
+            $(".reels27").colorbox({rel:'reels27', innerWidth:900, innerHeight:520});
+            $(".reels28").colorbox({rel:'reels28', innerWidth:900, innerHeight:520});
+            $(".reels29").colorbox({rel:'reels29', innerWidth:900, innerHeight:520});
+            $(".reels30").colorbox({rel:'reels30', innerWidth:900, innerHeight:520});
+            $(".reels31").colorbox({rel:'reels31', innerWidth:900, innerHeight:520});
+            $(".reels32").colorbox({rel:'reels32', innerWidth:900, innerHeight:520});
+            $(".reels33").colorbox({rel:'reels33', innerWidth:900, innerHeight:520});
+            $(".reels34").colorbox({rel:'reels34', innerWidth:900, innerHeight:520});
+            $(".reels35").colorbox({rel:'reels35', innerWidth:900, innerHeight:520});
+            $(".reels36").colorbox({rel:'reels36', innerWidth:900, innerHeight:520});
+            $(".reels37").colorbox({rel:'reels37', innerWidth:900, innerHeight:520});
+            $(".reels38").colorbox({rel:'reels38', innerWidth:900, innerHeight:520});
+            $(".reels39").colorbox({rel:'reels39', innerWidth:900, innerHeight:520});
+            $(".reels40").colorbox({rel:'reels40', innerWidth:900, innerHeight:520});
+            $(".reels41").colorbox({rel:'reels41', innerWidth:900, innerHeight:520});
+            $(".reels42").colorbox({rel:'reels42', innerWidth:900, innerHeight:520});
+            $(".reels43").colorbox({rel:'reels43', innerWidth:900, innerHeight:520});
+            $(".reels44").colorbox({rel:'reels44', innerWidth:900, innerHeight:520});
+            $(".reels45").colorbox({rel:'reels45', innerWidth:900, innerHeight:520});
+            $(".reels46").colorbox({rel:'reels46', innerWidth:900, innerHeight:520});
+            $(".reels47").colorbox({rel:'reels47', innerWidth:900, innerHeight:520});
+            $(".reels48").colorbox({rel:'reels48', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".reels00").colorbox({rel:'reels00', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".reels000").colorbox({rel:'reels000', innerWidth:330, innerHeight:194});
+        });
+        
+        
+        
+        
+        $(document).ready(function(){
+            $(".il1").colorbox({rel:'il1', innerWidth:900, innerHeight:520});
+            $(".il2").colorbox({rel:'il2', innerWidth:900, innerHeight:520});
+            $(".il3").colorbox({rel:'il3', innerWidth:900, innerHeight:520});
+            $(".il4").colorbox({rel:'il4', innerWidth:900, innerHeight:520});
+            $(".il5").colorbox({rel:'il5', innerWidth:900, innerHeight:520});
+            $(".il6").colorbox({rel:'il6', innerWidth:900, innerHeight:520});
+            $(".il7").colorbox({rel:'il7', innerWidth:900, innerHeight:520});
+            $(".il8").colorbox({rel:'il8', innerWidth:900, innerHeight:520});
+            $(".il9").colorbox({rel:'il9', innerWidth:900, innerHeight:520});
+            $(".il10").colorbox({rel:'il10', innerWidth:900, innerHeight:520});
+            $(".il11").colorbox({rel:'il11', innerWidth:900, innerHeight:520});
+            $(".il12").colorbox({rel:'il12', innerWidth:900, innerHeight:520});
+            $(".il13").colorbox({rel:'il13', innerWidth:900, innerHeight:520});
+            $(".il14").colorbox({rel:'il14', innerWidth:900, innerHeight:520});
+            $(".il15").colorbox({rel:'il15', innerWidth:900, innerHeight:520});
+            $(".il16").colorbox({rel:'il16', innerWidth:900, innerHeight:520});
+            $(".il17").colorbox({rel:'il17', innerWidth:900, innerHeight:520});
+            $(".il18").colorbox({rel:'il18', innerWidth:900, innerHeight:520});
+            $(".il19").colorbox({rel:'il19', innerWidth:900, innerHeight:520});
+            $(".il20").colorbox({rel:'il20', innerWidth:900, innerHeight:520});
+            $(".il21").colorbox({rel:'il21', innerWidth:900, innerHeight:520});
+            $(".il22").colorbox({rel:'il22', innerWidth:900, innerHeight:520});
+            $(".il23").colorbox({rel:'il23', innerWidth:900, innerHeight:520});
+            $(".il24").colorbox({rel:'il24', innerWidth:900, innerHeight:520});
+            $(".il25").colorbox({rel:'il25', innerWidth:900, innerHeight:520});
+            $(".il26").colorbox({rel:'il26', innerWidth:900, innerHeight:520});
+            $(".il27").colorbox({rel:'il27', innerWidth:900, innerHeight:520});
+            $(".il28").colorbox({rel:'il28', innerWidth:900, innerHeight:520});
+            $(".il29").colorbox({rel:'il29', innerWidth:900, innerHeight:520});
+            $(".il30").colorbox({rel:'il30', innerWidth:900, innerHeight:520});
+            $(".il31").colorbox({rel:'il31', innerWidth:900, innerHeight:520});
+            $(".il32").colorbox({rel:'il32', innerWidth:900, innerHeight:520});
+            $(".il33").colorbox({rel:'il33', innerWidth:900, innerHeight:520});
+            $(".il34").colorbox({rel:'il34', innerWidth:900, innerHeight:520});
+            $(".il35").colorbox({rel:'il35', innerWidth:900, innerHeight:520});
+            $(".il36").colorbox({rel:'il36', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".il00").colorbox({rel:'il00', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".il000").colorbox({rel:'il000', innerWidth:330, innerHeight:194});
+        });
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        $(document).ready(function(){
+            $(".levis1").colorbox({rel:'levis1', innerWidth:900, innerHeight:520});
+            $(".levis2").colorbox({rel:'levis2', innerWidth:900, innerHeight:520});
+            $(".levis3").colorbox({rel:'levis3', innerWidth:900, innerHeight:520});
+            $(".levis4").colorbox({rel:'levis4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".levis5").colorbox({rel:'levis5', innerWidth:697, innerHeight:410});
+            $(".levis6").colorbox({rel:'levis6', innerWidth:697, innerHeight:410});
+            $(".levis7").colorbox({rel:'levis7', innerWidth:697, innerHeight:410});
+            $(".levis8").colorbox({rel:'levis8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".levis9").colorbox({rel:'levis9', innerWidth:330, innerHeight:194});
+            $(".levis10").colorbox({rel:'levis10', innerWidth:330, innerHeight:194});
+            $(".levis11").colorbox({rel:'levis11', innerWidth:330, innerHeight:194});
+            $(".levis12").colorbox({rel:'levis12', innerWidth:330, innerHeight:194});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        $(document).ready(function(){
+            $(".pl1").colorbox({rel:'pl1', innerWidth:900, innerHeight:520});
+            $(".pl2").colorbox({rel:'pl2', innerWidth:900, innerHeight:520});
+            $(".pl3").colorbox({rel:'pl3', innerWidth:900, innerHeight:520});
+            $(".pl4").colorbox({rel:'pl4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".pl5").colorbox({rel:'pl5', innerWidth:697, innerHeight:410});
+            $(".pl6").colorbox({rel:'pl6', innerWidth:697, innerHeight:410});
+            $(".pl7").colorbox({rel:'pl7', innerWidth:697, innerHeight:410});
+            $(".pl8").colorbox({rel:'pl8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".pl9").colorbox({rel:'pl9', innerWidth:330, innerHeight:194});
+            $(".pl10").colorbox({rel:'pl10', innerWidth:330, innerHeight:194});
+            $(".pl11").colorbox({rel:'pl11', innerWidth:330, innerHeight:194});
+            $(".pl12").colorbox({rel:'pl12', innerWidth:330, innerHeight:194});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        $(document).ready(function(){
+            $(".xiumin1").colorbox({rel:'xiumin1', innerWidth:900, innerHeight:520});
+            $(".xiumin2").colorbox({rel:'xiumin2', innerWidth:900, innerHeight:520});
+            $(".xiumin3").colorbox({rel:'xiumin3', innerWidth:900, innerHeight:520});
+            $(".xiumin4").colorbox({rel:'xiumin4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".xiumin5").colorbox({rel:'xiumin5', innerWidth:697, innerHeight:410});
+            $(".xiumin6").colorbox({rel:'xiumin6', innerWidth:697, innerHeight:410});
+            $(".xiumin7").colorbox({rel:'xiumin7', innerWidth:697, innerHeight:410});
+            $(".xiumin8").colorbox({rel:'xiumin8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".xiumin9").colorbox({rel:'xiumin9', innerWidth:330, innerHeight:194});
+            $(".xiumin10").colorbox({rel:'xiumin10', innerWidth:330, innerHeight:194});
+            $(".xiumin11").colorbox({rel:'xiumin11', innerWidth:330, innerHeight:194});
+            $(".xiumin12").colorbox({rel:'xiumin12', innerWidth:330, innerHeight:194});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        
+        $(document).ready(function(){
+            $(".shorts1").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts2").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts3").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts4").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+        });
+        
+        $(document).ready(function(){
+            $(".shorts5").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts6").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts7").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts8").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".shorts9").colorbox({iframe:true, innerWidth:330, innerHeight:194});
+            $(".shorts10").colorbox({iframe:true, innerWidth:330, innerHeight:194});
+            $(".shorts11").colorbox({iframe:true, innerWidth:330, innerHeight:194});
+            $(".shorts12").colorbox({iframe:true, innerWidth:330, innerHeight:194});
+        });
+        
+        
+    
+    </script>
+    
+    
+    
+</head>
+
+
+
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--       ------------------------이 위는 레이아웃---------------------------------->
+<!--       ------------------------- 여기서부터는 ---------------------------------->
+<!--       --------------------------  내용  ---------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+
+
+
+<body>
+   
+    <div id="wrap">
+    
+<!--       --------------------------상단 아이콘---------------------------------->
+        <div id="top_bar">
+            <ul class="top_left">
+                <li><a href="information.html"><i class="fas fa-bars"></i></a></li>
+            </ul>
+            <ul class="top_right">
+<!--
+                <li><a href="">portfolio</a></li>
+                <li><a href="">contact</a></li>
+-->
+                <li><a href=""><i class="fas fa-bold"></i></a></li>
+                <li><a href="mailto:pop10020122@gmail.com"><i class="far fa-envelope"></i></a></li>
+<!--                <li><a href="#toBottom"><i class="far fa-envelope"></i></a></li>-->
+            </ul>
+        </div>
+<!--        -------------------------------------------------------------------->
+       
+       
+       
+       
+       
+<!--       --------------------------대문짝 이름---------------------------------->
+         <div id="name">
+            <p>Kim</p>
+            <p>Jeonghwa</p>
+        </div>
+<!--        -------------------------------------------------------------------->
+       
+       
+       
+       
+       
+<!--        -------------------------사진과 소개---------------------------------->
+          <div id="profile">
+<!--              <img src="img/profile_Deep.png" alt="">-->
+              <ul>
+<!--                  <li><p><span>"</span>&nbsp;&nbsp;<span>"</span></p></li>-->
+                  <li><img src="img/double_quotation_marks.png" alt=""></li>
+                  <li class="mintro"><p>&nbsp;서양화를 전공하고 영상 미술의 매력에 빠져 <br>현재는 모션 그래퍼로서 성장하고 있는 김정화입니다. <br>그림을 그리면서 기른 감각과 표현력을 영상으로 확장시켜보고자 <br>영상 미술 분야에 지원하게 되었습니다. <br>SBS 영상디자인팀에서 모션 그래픽 디자이너로 근무하며 <br>재미와 자신감을 느꼈고 열심히 해보고 싶다는 <br>욕심이 더욱 커졌습니다. 이러한 열망과 한 번도 변한 적 없는 <br>미술을 향한 관심 덕분에 앞으로의 저는 더욱 멋진 <br>모션 그래퍼로 성장할 것이라고 확신합니다.</p></li>
+                  <li><p>&nbsp;서양화를 전공하고 영상 미술의 매력에 빠져 <br>현재는 모션 그래퍼로서 성장하고 있는 김정화입니다. <br>그림을 그리면서 기른 감각과 표현력을 영상으로 확장시켜보고자 <br>영상 미술 분야에 지원하게 되었습니다. <br>SBS 영상디자인팀에서 모션 그래픽 디자이너로 근무하며 <br>재미와 자신감을 느꼈고 열심히 해보고 싶다는 욕심이 더욱 커졌습니다. <br>이러한 열망과 한 번도 변한 적 없는 미술을 향한 관심 덕분에 <br>앞으로의 저는 더욱 멋진 모션 그래퍼로 성장할 것이라고 확신합니다.</p></li>
+              </ul>
+          </div>
+<!--        -------------------------------------------------------------------->
+      
+          <div id="SBS">
+              <h1>SBS Works</h1>
+          </div>
+         
+         
+         
+         
+<!--
+          <div id="pfsbs">
+              <div id="reels">
+                  <div id="reels01">Package Design & Insert</div>
+              </div>
+          </div>
+-->
+         
+         
+         
+         
+         <div id="portfolio01">
+<!--        -------------------------첫 번째 영상---------------------------------->
+              <div id="video001">
+                <div class="title001">0# Package & Insert</div>
+                <img src="img/reels%20thumbnail.png" alt="SBS P&I">
+            </div>
+            <ul id="contents001">
+                <li class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/Emszp0ZNxZc?si=1ckBvYKI1-HRvrIe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                <li class="comment001">
+                    <span>
+                        <p>&nbsp;&nbsp;주로 "꼬리에 꼬리를 무는 그날이야기"의 인서트와 "모닝 와이드"의 삽화를 제작하였습니다. 그림이 주 전공이다보니 일러스트를 활용한 인서트나 삽화에서 좋은 반응을 얻었습니다. 이외에 간단한 합성, 인포그래픽을 제작하며 디자인적 감각을 기를 수 있는 다양한 경험을 하였습니다. <br><br><br></p>
+<!--
+                        <img src="img/01_co_1.png" class="c1 co0101">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_3.png" class="c1 co0103">
+-->
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;주로 "꼬리에 꼬리를 무는 그날이야기"의 인서트와 "모닝 와이드"의 삽화를 제작하였습니다. 그림이 주 전공이다보니 일러스트를 활용한 인서트나 삽화에서 좋은 반응을 얻었습니다. 이외에 간단한 합성, 인포그래픽을 제작하며 디자인적 감각을 기를 수 있는 다양한 경험을 하였습니다. <br><br><br></p>
+<!--
+                        <img src="img/01_co_3.png" class="c1 co0103">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_1.png" class="c1 co0101">
+-->
+                    </spanx>
+                </li>
+                <li><a href="img/reels%20(0-00-12-13).png" class="reels1"><img src="img/reels%20(0-00-12-13).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-15-21).png" class="reels2"><img src="img/reels%20(0-00-15-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-21-12).png" class="reels3"><img src="img/reels%20(0-00-21-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-25-14).png" class="reels4"><img src="img/reels%20(0-00-25-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-38-29).png" class="reels5"><img src="img/reels%20(0-00-38-29).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-47-25).png" class="reels6"><img src="img/img_sbs/reels%20(0-00-47-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-49-24).png" class="reels7"><img src="img/reels%20(0-00-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-50-19).png" class="reels8"><img src="img/reels%20(0-00-50-19).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-53-25).png" class="reels9"><img src="img/reels%20(0-00-53-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-55-11).png" class="reels10"><img src="img/reels%20(0-00-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-56-11).png" class="reels11"><img src="img/reels%20(0-00-56-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-59-10).png" class="reels12"><img src="img/reels%20(0-00-59-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-04-27).png" class="reels13"><img src="img/reels%20(0-01-04-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-09-28).png" class="reels14"><img src="img/reels%20(0-01-09-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-12-16).png" class="reels15"><img src="img/reels%20(0-01-12-16).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-16-08).png" class="reels16"><img src="img/reels%20(0-01-16-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-19-26).png" class="reels17"><img src="img/reels%20(0-01-19-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-22-02).png" class="reels18"><img src="img/reels%20(0-01-22-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-26-10).png" class="reels19"><img src="img/reels%20(0-01-26-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-27-24).png" class="reels20"><img src="img/reels%20(0-01-27-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-32-26).png" class="reels21"><img src="img/reels%20(0-01-32-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-36-18).png" class="reels22"><img src="img/reels%20(0-01-36-18).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-41-00).png" class="reels23"><img src="img/reels%20(0-01-41-00).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-43-09).png" class="reels24"><img src="img/reels%20(0-01-43-09).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-49-15).png" class="reels25"><img src="img/reels%20(0-01-49-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-54-08).png" class="reels26"><img src="img/reels%20(0-01-54-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-55-11).png" class="reels27"><img src="img/reels%20(0-01-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-58-21).png" class="reels28"><img src="img/reels%20(0-01-58-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-02-15).png" class="reels29"><img src="img/reels%20(0-02-02-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-05-27).png" class="reels30"><img src="img/reels%20(0-02-05-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-10-20).png" class="reels31"><img src="img/reels%20(0-02-10-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-13-12).png" class="reels32"><img src="img/reels%20(0-02-13-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-16-06).png" class="reels33"><img src="img/reels%20(0-02-16-06).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-18-04).png" class="reels34"><img src="img/reels%20(0-02-18-04).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-20-07).png" class="reels35"><img src="img/reels%20(0-02-20-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-10).png" class="reels36"><img src="img/reels%20(0-02-24-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-14).png" class="reels37"><img src="img/reels%20(0-02-24-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-25-27).png" class="reels38"><img src="img/reels%20(0-02-25-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-27-15).png" class="reels39"><img src="img/reels%20(0-02-27-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-30-02).png" class="reels40"><img src="img/reels%20(0-02-30-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-35-26).png" class="reels41"><img src="img/reels%20(0-02-35-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-37-28).png" class="reels42"><img src="img/reels%20(0-02-37-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-44-20).png" class="reels43"><img src="img/reels%20(0-02-44-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-49-24).png" class="reels44"><img src="img/reels%20(0-02-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-54-26).png" class="reels45"><img src="img/reels%20(0-02-54-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-58-07).png" class="reels46"><img src="img/reels%20(0-02-58-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-00-27).png" class="reels47"><img src="img/reels%20(0-03-00-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-09-03).png" class="reels48"><img src="img/reels%20(0-03-09-03).png" alt=""></a></li>
+<!--                <li></li>-->
+<!--                <li></li>-->
+               <li><a href="img/reels%20(0-00-12-13).png" class="reels00"><img src="img/reels%20(0-00-12-13).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-15-21).png" class="reels00"><img src="img/reels%20(0-00-15-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-21-12).png" class="reels00"><img src="img/reels%20(0-00-21-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-25-14).png" class="reels00"><img src="img/reels%20(0-00-25-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-38-29).png" class="reels00"><img src="img/reels%20(0-00-38-29).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-47-25).png" class="reels00"><img src="img/reels%20(0-00-47-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-49-24).png" class="reels00"><img src="img/reels%20(0-00-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-50-19).png" class="reels00"><img src="img/reels%20(0-00-50-19).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-53-25).png" class="reels00"><img src="img/reels%20(0-00-53-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-55-11).png" class="reels00"><img src="img/reels%20(0-00-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-56-11).png" class="reels00"><img src="img/reels%20(0-00-56-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-59-10).png" class="reels00"><img src="img/reels%20(0-00-59-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-04-27).png" class="reels00"><img src="img/reels%20(0-01-04-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-09-28).png" class="reels00"><img src="img/reels%20(0-01-09-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-12-16).png" class="reels00"><img src="img/reels%20(0-01-12-16).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-16-08).png" class="reels00"><img src="img/reels%20(0-01-16-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-19-26).png" class="reels00"><img src="img/reels%20(0-01-19-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-22-02).png" class="reels00"><img src="img/reels%20(0-01-22-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-26-10).png" class="reels00"><img src="img/reels%20(0-01-26-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-27-24).png" class="reels00"><img src="img/reels%20(0-01-27-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-32-26).png" class="reels00"><img src="img/reels%20(0-01-32-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-36-18).png" class="reels00"><img src="img/reels%20(0-01-36-18).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-41-00).png" class="reels00"><img src="img/reels%20(0-01-41-00).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-43-09).png" class="reels00"><img src="img/reels%20(0-01-43-09).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-49-15).png" class="reels00"><img src="img/reels%20(0-01-49-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-54-08).png" class="reels00"><img src="img/reels%20(0-01-54-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-55-11).png" class="reels00"><img src="img/reels%20(0-01-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-58-21).png" class="reels00"><img src="img/reels%20(0-01-58-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-02-15).png" class="reels00"><img src="img/reels%20(0-02-02-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-05-27).png" class="reels00"><img src="img/reels%20(0-02-05-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-10-20).png" class="reels00"><img src="img/reels%20(0-02-10-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-13-12).png" class="reels00"><img src="img/reels%20(0-02-13-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-16-06).png" class="reels00"><img src="img/reels%20(0-02-16-06).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-18-04).png" class="reels00"><img src="img/reels%20(0-02-18-04).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-20-07).png" class="reels00"><img src="img/reels%20(0-02-20-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-10).png" class="reels00"><img src="img/reels%20(0-02-24-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-14).png" class="reels00"><img src="img/reels%20(0-02-24-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-25-27).png" class="reels00"><img src="img/reels%20(0-02-25-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-27-15).png" class="reels00"><img src="img/reels%20(0-02-27-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-30-02).png" class="reels00"><img src="img/reels%20(0-02-30-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-35-26).png" class="reels00"><img src="img/reels%20(0-02-35-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-37-28).png" class="reels00"><img src="img/reels%20(0-02-37-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-44-20).png" class="reels00"><img src="img/reels%20(0-02-44-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-49-24).png" class="reels00"><img src="img/reels%20(0-02-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-54-26).png" class="reels00"><img src="img/reels%20(0-02-54-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-58-07).png" class="reels00"><img src="img/reels%20(0-02-58-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-00-27).png" class="reels00"><img src="img/reels%20(0-03-00-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-09-03).png" class="reels00"><img src="img/reels%20(0-03-09-03).png" alt=""></a></li>
+<!--                <li></li>-->
+<!--                <li></li>-->
+               <li><a href="img/reels%20(0-00-12-13).png" class="reels000"><img src="img/reels%20(0-00-12-13).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-15-21).png" class="reels000"><img src="img/reels%20(0-00-15-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-21-12).png" class="reels000"><img src="img/reels%20(0-00-21-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-25-14).png" class="reels000"><img src="img/reels%20(0-00-25-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-38-29).png" class="reels000"><img src="img/reels%20(0-00-38-29).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-47-25).png" class="reels000"><img src="img/reels%20(0-00-47-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-49-24).png" class="reels000"><img src="img/reels%20(0-00-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-50-19).png" class="reels000"><img src="img/reels%20(0-00-50-19).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-53-25).png" class="reels000"><img src="img/reels%20(0-00-53-25).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-55-11).png" class="reels000"><img src="img/reels%20(0-00-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-56-11).png" class="reels000"><img src="img/reels%20(0-00-56-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-00-59-10).png" class="reels000"><img src="img/reels%20(0-00-59-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-04-27).png" class="reels000"><img src="img/reels%20(0-01-04-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-09-28).png" class="reels000"><img src="img/reels%20(0-01-09-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-12-16).png" class="reels000"><img src="img/reels%20(0-01-12-16).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-16-08).png" class="reels000"><img src="img/reels%20(0-01-16-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-19-26).png" class="reels000"><img src="img/reels%20(0-01-19-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-22-02).png" class="reels000"><img src="img/reels%20(0-01-22-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-26-10).png" class="reels000"><img src="img/reels%20(0-01-26-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-27-24).png" class="reels000"><img src="img/reels%20(0-01-27-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-32-26).png" class="reels000"><img src="img/reels%20(0-01-32-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-36-18).png" class="reels000"><img src="img/reels%20(0-01-36-18).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-41-00).png" class="reels000"><img src="img/reels%20(0-01-41-00).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-43-09).png" class="reels000"><img src="img/reels%20(0-01-43-09).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-49-15).png" class="reels000"><img src="img/reels%20(0-01-49-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-54-08).png" class="reels000"><img src="img/reels%20(0-01-54-08).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-55-11).png" class="reels000"><img src="img/reels%20(0-01-55-11).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-01-58-21).png" class="reels000"><img src="img/reels%20(0-01-58-21).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-02-15).png" class="reels000"><img src="img/reels%20(0-02-02-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-05-27).png" class="reels000"><img src="img/reels%20(0-02-05-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-10-20).png" class="reels000"><img src="img/reels%20(0-02-10-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-13-12).png" class="reels000"><img src="img/reels%20(0-02-13-12).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-16-06).png" class="reels000"><img src="img/reels%20(0-02-16-06).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-18-04).png" class="reels000"><img src="img/reels%20(0-02-18-04).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-20-07).png" class="reels000"><img src="img/reels%20(0-02-20-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-10).png" class="reels000"><img src="img/reels%20(0-02-24-10).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-24-14).png" class="reels000"><img src="img/reels%20(0-02-24-14).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-25-27).png" class="reels000"><img src="img/reels%20(0-02-25-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-27-15).png" class="reels000"><img src="img/reels%20(0-02-27-15).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-30-02).png" class="reels000"><img src="img/reels%20(0-02-30-02).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-35-26).png" class="reels000"><img src="img/reels%20(0-02-35-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-37-28).png" class="reels000"><img src="img/reels%20(0-02-37-28).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-44-20).png" class="reels000"><img src="img/reels%20(0-02-44-20).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-49-24).png" class="reels000"><img src="img/reels%20(0-02-49-24).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-54-26).png" class="reels000"><img src="img/reels%20(0-02-54-26).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-02-58-07).png" class="reels000"><img src="img/reels%20(0-02-58-07).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-00-27).png" class="reels000"><img src="img/reels%20(0-03-00-27).png" alt=""></a></li>
+                <li><a href="img/reels%20(0-03-09-03).png" class="reels000"><img src="img/reels%20(0-03-09-03).png" alt=""></a></li>
+                
+                
+                
+            </ul>
+            
+            
+            <div id="video002">
+                <div class="title002">0# Illustration</div>
+                <img src="img/240108_emer.png" alt="illustration">
+            </div>
+            <ul id="contents002">
+<!--
+                <iframe src="https://www.youtube.com/embed/5OmQZqGoDZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <li class="comment002">
+                    <span>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 콘셉트를 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시 블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간 : &nbsp;6시간</p>
+                        
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 콘셉트를 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시 블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간 : &nbsp;6시간</p>
+
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                    </spanx>
+                </li>
+-->
+                <li><a href="img/220627_mcsi.png" class="il1"><img src="img/220627_mcsi.png" alt=""></a></li>
+                <li><a href="img/230425_cctv.png" class="il2"><img src="img/230425_cctv.png" alt=""></a></li>
+                <li><a href="img/230529_m3.png" class="il3"><img src="img/230529_m3.png" alt=""></a></li>
+                <li><a href="img/230502_m1.png" class="il4"><img src="img/230502_m1.png" alt=""></a></li>
+                <li><a href="img/230614_m3.png" class="il5"><img src="img/230614_m3.png" alt=""></a></li>
+                <li><a href="img/230614_m7.png" class="il6"><img src="img/230614_m7.png" alt=""></a></li>
+                <li><a href="img/230627_m1.png" class="il7"><img src="img/230627_m1.png" alt=""></a></li>
+                <li><a href="img/230703_cctv.png" class="il8"><img src="img/230703_cctv.png" alt=""></a></li>
+                <li><a href="img/230703_miM.png" class="il9"><img src="img/230703_miM.png" alt=""></a></li>
+                <li><a href="img/230710_cctv.png" class="il10"><img src="img/230710_cctv.png" alt=""></a></li>
+                <li><a href="img/230711_m2.png" class="il11"><img src="img/230711_m2.png" alt=""></a></li>
+                <li><a href="img/230711_m3.png" class="il12"><img src="img/230711_m3.png" alt=""></a></li>
+                <li><a href="img/230725_m6.png" class="il13"><img src="img/230725_m6.png" alt=""></a></li>
+                <li><a href="img/230731_cctv.png" class="il14"><img src="img/230731_cctv.png" alt=""></a></li>
+                <li><a href="img/230731_miM.png" class="il15"><img src="img/230731_miM.png" alt=""></a></li>
+                <li><a href="img/230801_m2.png" class="il16"><img src="img/230801_m2.png" alt=""></a></li>
+                <li><a href="img/230815_emer.png" class="il17"><img src="img/230815_emer.png" alt=""></a></li>
+                <li><a href="img/230816_cctv.png" class="il18"><img src="img/230816_cctv.png" alt=""></a></li>
+                <li><a href="img/230821_cctv.png" class="il19"><img src="img/230821_cctv.png" alt=""></a></li>
+                <li><a href="img/230822_emer.png" class="il20"><img src="img/230822_emer.png" alt=""></a></li>
+                <li><a href="img/230822_m1.png" class="il21"><img src="img/230822_m1.png" alt=""></a></li>
+                <li><a href="img/230822_m2.png" class="il22"><img src="img/230822_m2.png" alt=""></a></li>
+                <li><a href="img/230905_m5.png" class="il23"><img src="img/230905_m5.png" alt=""></a></li>
+                <li><a href="img/230905_m6.png" class="il24"><img src="img/230905_m6.png" alt=""></a></li>
+                <li><a href="img/230912_m1.png" class="il25"><img src="img/230912_m1.png" alt=""></a></li>
+                <li><a href="img/230919.png" class="il26"><img src="img/230919.png" alt=""></a></li>
+                <li><a href="img/230926_emer.png" class="il27"><img src="img/230926_emer.png" alt=""></a></li>
+                <li><a href="img/230926_emer2.png" class="il28"><img src="img/230926_emer2.png" alt=""></a></li>
+                <li><a href="img/231003_m3.png" class="il29"><img src="img/231003_m3.png" alt=""></a></li>
+                <li><a href="img/231010_m5.png" class="il30"><img src="img/231010_m5.png" alt=""></a></li>
+                <li><a href="img/231031_m6.png" class="il31"><img src="img/231031_m6.png" alt=""></a></li>
+                <li><a href="img/231120_m2.png" class="il32"><img src="img/231120_m2.png" alt=""></a></li>
+                <li><a href="img/240115_m1.png" class="il33"><img src="img/240115_m1.png" alt=""></a></li>
+                <li><a href="img/240122_m3.png" class="il34"><img src="img/240122_m3.png" alt=""></a></li>
+                <li><a href="img/231226_m8.png" class="il35"><img src="img/231226_m8.png" alt=""></a></li>
+                <li><a href="img/240108_emer.png" class="il36"><img src="img/240108_emer.png" alt=""></a></li>
+<!--                <li></li>-->
+<!--                <li></li>-->
+                <li><a href="img/220627_mcsi.png" class="il00"><img src="img/220627_mcsi.png" alt=""></a></li>
+                <li><a href="img/230425_cctv.png" class="il00"><img src="img/230425_cctv.png" alt=""></a></li>
+                <li><a href="img/230529_m3.png" class="il00"><img src="img/230529_m3.png" alt=""></a></li>
+                <li><a href="img/230502_m1.png" class="il00"><img src="img/230502_m1.png" alt=""></a></li>
+                <li><a href="img/230614_m3.png" class="il00"><img src="img/230614_m3.png" alt=""></a></li>
+                <li><a href="img/230614_m7.png" class="il00"><img src="img/230614_m7.png" alt=""></a></li>
+                <li><a href="img/230627_m1.png" class="il00"><img src="img/230627_m1.png" alt=""></a></li>
+                <li><a href="img/230703_cctv.png" class="il00"><img src="img/230703_cctv.png" alt=""></a></li>
+                <li><a href="img/230703_miM.png" class="il00"><img src="img/230703_miM.png" alt=""></a></li>
+                <li><a href="img/230710_cctv.png" class="il00"><img src="img/230710_cctv.png" alt=""></a></li>
+                <li><a href="img/230711_m2.png" class="il00"><img src="img/230711_m2.png" alt=""></a></li>
+                <li><a href="img/230711_m3.png" class="il00"><img src="img/230711_m3.png" alt=""></a></li>
+                <li><a href="img230725_m6.png" class="il00"><img src="img/230725_m6.png" alt=""></a></li>
+                <li><a href="img/230731_cctv.png" class="il00"><img src="img/230731_cctv.png" alt=""></a></li>
+                <li><a href="img/230731_miM.png" class="il00"><img src="img/230731_miM.png" alt=""></a></li>
+                <li><a href="img/230801_m2.png" class="il00"><img src="img/230801_m2.png" alt=""></a></li>
+                <li><a href="img/230815_emer.png" class="il00"><img src="img/230815_emer.png" alt=""></a></li>
+                <li><a href="img/230816_cctv.png" class="il00"><img src="img/230816_cctv.png" alt=""></a></li>
+                <li><a href="img/230821_cctv.png" class="il00"><img src="img/230821_cctv.png" alt=""></a></li>
+                <li><a href="img/230822_emer.png" class="il00"><img src="img/230822_emer.png" alt=""></a></li>
+                <li><a href="img/230822_m1.png" class="il00"><img src="img/230822_m1.png" alt=""></a></li>
+                <li><a href="img/230822_m2.png" class="il00"><img src="img/230822_m2.png" alt=""></a></li>
+                <li><a href="img/230905_m5.png" class="il00"><img src="img/230905_m5.png" alt=""></a></li>
+                <li><a href="img/230905_m6.png" class="il00"><img src="img/230905_m6.png" alt=""></a></li>
+                <li><a href="img/230912_m1.png" class="il00"><img src="img/230912_m1.png" alt=""></a></li>
+                <li><a href="img/230919.png" class="il00"><img src="img/230919.png" alt=""></a></li>
+                <li><a href="img/230926_emer.png" class="il00"><img src="img/230926_emer.png" alt=""></a></li>
+                <li><a href="img230926_emer2.png" class="il00"><img src="img/230926_emer2.png" alt=""></a></li>
+                <li><a href="img/231003_m3.png" class="il00"><img src="img/231003_m3.png" alt=""></a></li>
+                <li><a href="img/231010_m5.png" class="il00"><img src="img/231010_m5.png" alt=""></a></li>
+                <li><a href="img/231031_m6.png" class="il00"><img src="img/231031_m6.png" alt=""></a></li>
+                <li><a href="img/231120_m2.png" class="il00"><img src="img/231120_m2.png" alt=""></a></li>
+                <li><a href="img/240115_m1.png" class="il00"><img src="img/240115_m1.png" alt=""></a></li>
+                <li><a href="img/240122_m3.png" class="il00"><img src="img/240122_m3.png" alt=""></a></li>
+                <li><a href="img/231226_m8.png" class="il00"><img src="img/231226_m8.png" alt=""></a></li>
+                <li><a href="img/240108_emer.png" class="il00"><img src="img/240108_emer.png" alt=""></a></li>
+<!--                <li></li>-->
+<!--                <li></li>-->
+                <li><a href="img/220627_mcsi.png" class="il000"><img src="img/220627_mcsi.png" alt=""></a></li>
+                <li><a href="img/230425_cctv.png" class="il000"><img src="img/230425_cctv.png" alt=""></a></li>
+                <li><a href="img/230529_m3.png" class="il000"><img src="img/230529_m3.png" alt=""></a></li>
+                <li><a href="img/230502_m1.png" class="il000"><img src="img/230502_m1.png" alt=""></a></li>
+                <li><a href="img/230614_m3.png" class="il000"><img src="img/230614_m3.png" alt=""></a></li>
+                <li><a href="img/230614_m7.png" class="il000"><img src="img/230614_m7.png" alt=""></a></li>
+                <li><a href="img/230627_m1.png" class="il000"><img src="img/230627_m1.png" alt=""></a></li>
+                <li><a href="img/230703_cctv.png" class="il000"><img src="img/230703_cctv.png" alt=""></a></li>
+                <li><a href="img/230703_miM.png" class="il000"><img src="img/230703_miM.png" alt=""></a></li>
+                <li><a href="img/230710_cctv.png" class="il000"><img src="img/230710_cctv.png" alt=""></a></li>
+                <li><a href="img/230711_m2.png" class="il000"><img src="img/230711_m2.png" alt=""></a></li>
+                <li><a href="img/230711_m3.png" class="il000"><img src="img/230711_m3.png" alt=""></a></li>
+                <li><a href="img/230725_m6.png" class="il000"><img src="img/230725_m6.png" alt=""></a></li>
+                <li><a href="img/230731_cctv.png" class="il000"><img src="img/230731_cctv.png" alt=""></a></li>
+                <li><a href="img/230731_miM.png" class="il000"><img src="img/230731_miM.png" alt=""></a></li>
+                <li><a href="img/230801_m2.png" class="il000"><img src="img/230801_m2.png" alt=""></a></li>
+                <li><a href="img/230815_emer.png" class="il000"><img src="img/230815_emer.png" alt=""></a></li>
+                <li><a href="img/230816_cctv.png" class="il000"><img src="img/230816_cctv.png" alt=""></a></li>
+                <li><a href="img/230821_cctv.png" class="il000"><img src="img/230821_cctv.png" alt=""></a></li>
+                <li><a href="img/230822_emer.png" class="il000"><img src="img/230822_emer.png" alt=""></a></li>
+                <li><a href="img/230822_m1.png" class="il000"><img src="img/230822_m1.png" alt=""></a></li>
+                <li><a href="img/230822_m2.png" class="il000"><img src="img/230822_m2.png" alt=""></a></li>
+                <li><a href="img/230905_m5.png" class="il000"><img src="img/230905_m5.png" alt=""></a></li>
+                <li><a href="img/230905_m6.png" class="il000"><img src="img/230905_m6.png" alt=""></a></li>
+                <li><a href="img/230912_m1.png" class="il000"><img src="img/230912_m1.png" alt=""></a></li>
+                <li><a href="img/230919.png" class="il000"><img src="img/230919.png" alt=""></a></li>
+                <li><a href="img/230926_emer.png" class="il000"><img src="img/230926_emer.png" alt=""></a></li>
+                <li><a href="img/230926_emer2.png" class="il000"><img src="img/230926_emer2.png" alt=""></a></li>
+                <li><a href="img/231003_m3.png" class="il000"><img src="img/231003_m3.png" alt=""></a></li>
+                <li><a href="img/231010_m5.png" class="il000"><img src="img/231010_m5.png" alt=""></a></li>
+                <li><a href="img/231031_m6.png" class="il000"><img src="img/231031_m6.png" alt=""></a></li>
+                <li><a href="img/231120_m2.png" class="il000"><img src="img/231120_m2.png" alt=""></a></li>
+                <li><a href="img/240115_m1.png" class="il000"><img src="img/240115_m1.png" alt=""></a></li>
+                <li><a href="img/240122_m3.png" class="il000"><img src="img/240122_m3.png" alt=""></a></li>
+                <li><a href="img/231226_m8.png" class="il000"><img src="img/231226_m8.png" alt=""></a></li>
+                <li><a href="img/240108_emer.png" class="il000"><img src="img/240108_emer.png" alt=""></a></li>
+            </ul>
+            
+            
+            
+            <div id="video003">
+                <div class="title003"></div>
+            </div>
+            
+            
+            
+            
+         </div>
+         
+         
+         
+         
+         
+          <div id="other">
+              <h1>Other Works</h1>
+          </div>
+      
+      
+          <div id="portfolio">
+<!--        -------------------------첫 번째 영상---------------------------------->
+              <div id="video01">
+                <div class="title01">01 Levi's Brand Promo</div>
+                <img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt="Levi's Brand Promo">
+            </div>
+            <ul id="contents01">
+                <li class="iframe"><iframe z-index="1" src="https://www.youtube.com/embed/1f2QK7eOswA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                <li class="comment01">
+                    <span>
+                        <p>&nbsp;&nbsp;청바지가 떠오르는 블루를 메인으로 리바이스 브랜드 로고의 레드 컬러를 사용하여 포인트를 주었습니다. 블루, 민트, 레드의 조화로 생동감 있는 브랜드 이미지를 표현하고자 했습니다. 여유로운 음악의 매력을 살려주는 여름을 콘셉트로 디자인하였습니다. 브랜드 아이덴티티를 잊지 않으면서 새로운 콘셉트를 전달하도록 노력하였습니다. <br><br><br>* 개인 연습작입니다.</p>
+                        <img src="img/01_co_1.png" class="c1 co0101">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_3.png" class="c1 co0103">
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;청바지가 떠오르는 블루를 메인으로 리바이스 브랜드 로고의 레드 컬러를 사용하여 포인트를 주었습니다. 블루, 민트, 레드의 조화로 생동감 있는 브랜드 이미지를 표현하고자 했습니다. 여유로운 음악의 매력을 살려주는 여름을 콘셉트로 디자인하였습니다. 브랜드 아이덴티티를 잊지 않으면서 새로운 콘셉트를 전달하도록 노력하였습니다. <br><br><br>* 개인 연습작입니다.</p>
+                        <img src="img/01_co_3.png" class="c1 co0103">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_1.png" class="c1 co0101">
+                    </spanx>
+                </li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis1"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis2"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis3"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis4"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis5"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis6"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis7"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis8"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis9"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis10"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis11"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis12"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+            </ul>
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------두 번째 영상---------------------------------->
+            <div id="video02">
+                <div class="title02">02 PL Promotion Video</div>
+                <img src="img/PL%20(0-00-04-04).jpg" alt="PL Promotion Video">
+            </div>
+            <ul id="contents02">
+                <iframe src="https://www.youtube.com/embed/RzM66_G6o9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <li class="comment02">
+                    <span>
+                        <p>&nbsp;&nbsp;프리미어리그의 테마 컬러를 그대로 살려 어울리는 이미지를 구성하였습니다. 속도가 빠르고 디자인적인 요소가 굉장히 많아서 디자인과 리듬감에 대한 감각을 익히는 데 도움이 되었습니다. 빠르게 움직이는 이미지들의 연결성과 배경 음악과 흐름을 맞추는 것을 중요하게 작업하였습니다. <br><br><br>* 개인 연습작입니다.</p>
+                        <img src="img/02_co_1.png" class="c2 co0201">
+                        <img src="img/02_co_2.png" class="c2 co0202">
+                        <img src="img/02_co_3.png" class="c2 co0203">
+<!--                        <img src="img/02_co_4.png" class="c2 co0203">-->
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;프리미어리그의 테마 컬러를 그대로 살려 어울리는 이미지를 구성하였습니다. 속도가 빠르고 디자인적인 요소가 굉장히 많아서 디자인과 리듬감에 대한 감각을 익히는 데 도움이 되었습니다. 빠르게 움직이는 이미지들의 연결성과 배경 음악과 흐름을 맞추는 것을 중요하게 작업하였습니다. <br><br><br>* 개인 연습작입니다.</p>
+                        <img src="img/02_co_3.png" class="c2 co0203">
+                        <img src="img/02_co_2.png" class="c2 co0202">
+                        <img src="img/02_co_1.png" class="c2 co0201">
+<!--                        <img src="img/02_co_4.png" class="c2 co0203">-->
+                    </spanx>
+                </li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl1"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl2"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl3"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl4"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl5"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl6"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl7"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl8"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl9"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl10"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl11"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl12"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+            </ul>
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------세 번째 영상---------------------------------->
+<!--
+           <div id="video03">
+                <div class="title03">03 CTA_Birthday</div>
+                <img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt="CTA_birthday">
+            </div>
+            <ul id="contents03">
+                <iframe src="https://www.youtube.com/embed/5OmQZqGoDZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <li class="comment03">
+                    <span>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 콘셉트를 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시 블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간 : &nbsp;6시간</p>
+
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 콘셉트를 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시 블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간 : &nbsp;6시간</p>
+
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                    </spanx>
+                </li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin1"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin2"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin3"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin4"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin5"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin6"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin7"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin8"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin9"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin10"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin11"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin12"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+            </ul>
+-->
+         
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------네 번째 영상---------------------------------->
+<!--
+           <div id="video04">
+                <div class="title04">0# Shorts Videos</div>
+                <img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt="Shorts Videos">
+            </div>
+            <ul id="contents04">
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts1"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts2"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts3"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts4"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts5"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts6"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts7"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts8"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts9"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts10"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts11"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts12"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                </ul>
+-->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------다섯 번째 영상---------------------------------->
+           <div id="video05">
+                <div class="title05"></div>
+            </div>
+            
+<!--        -------------------------------------------------------------------->
+         
+         
+          </div>
+          
+<!--
+          <div id="shorts">
+              <h1>shorts</h1>
+              <ul>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts1"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts2"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts3"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts4"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts5"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts6"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts7"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts8"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts9"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts10"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts11"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts12"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+              </ul>
+          </div>
+-->
+          
+<!--        -------------------------연락처---------------------------------->
+          <div id="contact">
+              <h1>more</h1>
+              <ul>
+                  <li><a href="information2.html">Information</a></li>
+<!--                  <li><a href="https://blog.naver.com/etudiant16/222601326451">blog.naver.com<br>/etudiant16</a></li>-->
+              </ul>
+          </div>
+<!--        -------------------------------------------------------------------->
+       
+<!--        <a name="toBottom"></a>-->
+    </div>
+    
+    
+    
+</body>
+</html>
